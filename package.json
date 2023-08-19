@@ -1,0 +1,52 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "hexo": "^6.3.0",
+    "hexo-butterfly-article-double-row": "^1.0.2",
+    "hexo-butterfly-categories-card": "^1.0.0",
+    "hexo-butterfly-clock-anzhiyu": "^1.1.8",
+    "hexo-butterfly-envelope": "^1.0.15",
+    "hexo-butterfly-footer-beautify": "^1.0.6",
+    "hexo-butterfly-swiper": "^1.0.12",
+    "hexo-butterfly-tag-plugins-plus": "^1.0.17",
+    "hexo-butterfly-wowjs": "^1.0.5",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-deployer-rsync": "^2.0.0",
+    "hexo-filter-gitcalendar": "^1.0.11",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-helper-live2d": "^3.1.1",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-kramed": "^0.1.4",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
+    "hexo-theme-butterfly": "^4.9.0",
+    "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
+    "live2d-widget-model-tororo": "^1.0.5"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-fontmin": "^0.7.4",
+    "gulp-html-minifier-terser": "^7.1.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-terser": "^2.1.0"
+  }
+}
