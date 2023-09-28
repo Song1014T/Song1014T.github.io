@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 北冰洋の技术小窝
-subtitle: '源码技术分享'
-description: '青青子衿，悠悠我心。'
-keywords: "源码"
-author: 北冰洋
+title: 成为厉害男人<@挖穿地球.>
+subtitle: '源码分享,技术分享,生活分享,技术论坛。'
+description: '励志成为厉害男人!'
+keywords: "网站源码下载,源码站,android源码,源码网站,网站源码,github中文社区,网页源码,开源中国,源代码,源码之家,开源广场,代码源技术分享,java,linux,php,宝塔,css,html,源码分享,懿,瑶,懿瑶,博客,免费源码,免费,快速搭建,快速构建,静态页面,好看的博客,个人博客,好看的个人博客,好看的网站,网站首页,网站模版,代码分享,技术小站,技术博客,懿瑶的技术小窝,漂亮网站,为爱发电,源码分享,技术论坛"
+author: 挖穿地球.
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://song1014t.github.io/ # 域名
-permalink: :year/:month/:day/:title/
+url: https://www.yybk.cc # 域名
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 6 #每页显示的文章数目
+  per_page: 10 #每页显示的文章数目
   order_by: -date
 
 # Category & Tag
@@ -102,12 +102,47 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repository: git@github.com:Song1014T/Song1014T.github.io.git
   branch: main
+# - type: baidu_url_submitter
+- type: cjh_baidu_url_submitter
+- type: cjh_bing_url_submitter
 
 
 
+hexo_submit_urls_to_search_engine:
+  # 提交最新的 n 个链接
+  count: 5
+  # 提交修改时间在 n 秒内的链接，单位秒。例如：
+  # 有两个文件 a.txt 和 b.txt，分别对应 https://yoursite.com/a.txt 和 https://yoursite.com/b.txt
+  # 其更新时间距当前分别为 800s 和 1000s（period 字段设为 900）
+  # 则 https://yoursite.com/a.txt 会被提交，https://yoursite.com/b.txt 不会
+  period: 900
+  # 提交链接的条件，可选值：count | period。不同取值的含义如下：
+  # count ：应用上述的 count  配置项
+  # period：应用上述的 period 配置项
+  submit_condition: count
+  # 是否向 Google 提交，可选值：1 | 0（0：否；1：是）
+  google: 0
+  # 是否向 Bing 提交，可选值：1 | 0（0：否；1：是）
+  bing: 1
+  # 是否向 Baidu 提交，可选值：1 | 0（0：否；1：是）
+  baidu: 1
+  # 文本文档的地址，要推送的链接会保存在此文本文档里
+  txt_path: submit_urls.txt
+  # 在百度站长平台中注册的域名
+  baidu_host: https://www.yybk.cc/
+  # 百度自动推送 API 的 token（获取方式见插件文档：https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html）
+  baidu_token: VZaGQ09j8zBEXM3T
+  # 在必应站长平台中注册的域名
+  bing_host: https://www.yybk.cc/
+  # 必应自动推送 API 的 token（获取方式见插件文档：https://cjh0613.github.io/blog/20200603HexoSubmitUrlsToSearchEngine.html）
+  bing_token: 049e188c31e94a48b9fffeb44e559c4a
+  # 在谷歌站长平台中注册的域名
+  google_host: https://yoursite.com/
+  # 存放 google key 的 json 文件，放于网站根目录
+  google_key_file: google_key.json
 
 
 #本地搜索配置
@@ -226,24 +261,24 @@ footer_beautify:
 # hexo-butterfly-categories-card
 # see https://akilar.top/posts/a9131002/
 categoryBar:
-  enable: false # 开关
+  enable: true # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   layout: # 挂载容器类型
     type: id
     name: recent-posts
     index: 0
-  column: even # odd：3列 | even：4列
+  column: odd # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: css
-      cover: /couverimg/1.png  #目前有点小问题
+    - descr: cocos
+      cover: https://pic.imgdb.cn/item/64e701d5661c6c8e549c8465.png #picgo + github 做图床 
+    - descr: 下饭指南
+      cover: https://pic.imgdb.cn/item/64e701d6661c6c8e549c8484.png
     - descr: java
-      cover: https://alifei02.cfp.cn/creative/vcg/nowater800/new/VCG211354281060.jpg?x-oss-process=image/format,webp
-    - descr: linux
-      cover: https://alifei02.cfp.cn/creative/vcg/nowater800/new/VCG211354281060.jpg?x-oss-process=image/format,webp
-    - descr: vue
-      cover: https://alifei02.cfp.cn/creative/vcg/nowater800/new/VCG211354281060.jpg?x-oss-process=image/format,webp
+      cover: https://pic.imgdb.cn/item/64e701d7661c6c8e549c8666.png
+    # - descr: vue
+    #   cover: https://pic2.zhimg.com/v2-5d98bd9f9f49875070df8abfd9ae665d_r.jpg
 
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
 
@@ -291,7 +326,7 @@ wowjs:
 #GitCalendar 店长
 # hexo-filter-gitcalendar
 gitcalendar:
-  enable: false # 开关
+  enable: true # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   # butterfly挂载容器
@@ -299,8 +334,8 @@ gitcalendar:
     type: id
     name: recent-posts
     index: 0
-  user: Fomalhaut-Blog #git用户名
-  apiurl: 'https://gitcalendar.fomal.cc'	# 这是我的API，最好自己弄一个
+  user: Song1014T #git用户名
+  apiurl: https://api.yybk.cc	# 这是我的API，最好自己弄一个
   minheight:
     pc: 280px #桌面端最小高度
     mibile: 0px #移动端最小高度
@@ -361,3 +396,45 @@ tag_plugins:
 aplayer: 
   meting: true
   asset_inject: false
+
+# hash文件
+abbrlink:
+  alg: crc32
+  req: hex
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+
+# 主动提交新链接
+baidu_url_submit:
+  count: 10              # 提交最新的多少个链接
+  host: https://www.yybk.cc   # 在百度站长平台中添加的域名
+  token: VZaGQ09j8zBEXM3T      # 秘钥
+  path: baidu_urls.txt   # 文本文档的地址， 新链接会保存在此文本文档里
+
+
+
+
+  # 开启压缩
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+    - '**/*.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/*.js'
+    - '**/index.js'

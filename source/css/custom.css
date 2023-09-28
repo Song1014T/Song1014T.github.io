@@ -183,20 +183,19 @@
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
-  background: linear-gradient(
+  /* background: linear-gradient(
     -45deg,
     #e8d8b9,
     #eccec5,
     #a3e9eb,
     #bdbdf0,
     #eec1ea
-  );
-  box-shadow: 0 0 5px rgb(66, 68, 68);
+  ); */
   position: relative;
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite !important;
+  background-image: url('https://img1.imgtp.com/2023/08/21/FcH4AKn4.jpg');
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  background-position: center;
+  background-size: cover;
 }
 @-webkit-keyframes Gradient {
   0% {
@@ -234,7 +233,24 @@
 
 /* 黑夜模式适配 */
 [data-theme="dark"] #aside-content > .card-widget.card-info {
+  /* background-image: url('https://img1.imgtp.com/2023/08/21/yDPu4y8P.jpg'); */
+  /* background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  position: relative; */
   background: #191919ee;
+  /* background: linear-gradient(
+    -45deg,
+    #e8d8b9,
+    #eccec5,
+    #a3e9eb,
+    #bdbdf0,
+    #eec1ea
+  );
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important; */
 }
 
 /* 个人信息Follow me按钮 */
@@ -506,3 +522,60 @@ h6::before {
 }
 
 
+
+
+/* 个人卡片图标大小 */
+svg.social_icon {
+  width: 1.20em;
+  height: 1.20em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(41, 236, 161, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(6, 156, 56, 0.623);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: var(--theme-color);
+}
+
+
+/* 欢迎信息 */
+#welcome-info {
+  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+  border-radius: 18px;
+  padding: 8px;
+}
+[data-theme="dark"] #welcome-info {
+  background: #212121;
+}
