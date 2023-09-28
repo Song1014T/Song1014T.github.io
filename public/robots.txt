@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:/js/*.js
+Disallow:/css/*.css
+Sitemap:https://www.yybk.cc/sitemap.xml
+Crawl-delay:5
