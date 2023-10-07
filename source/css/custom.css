@@ -183,16 +183,16 @@
 
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
-  /* background: linear-gradient(
+  background: linear-gradient(
     -45deg,
     #e8d8b9,
     #eccec5,
     #a3e9eb,
     #bdbdf0,
     #eec1ea
-  ); */
+  );
   position: relative;
-  background-image: url('https://img1.imgtp.com/2023/08/21/FcH4AKn4.jpg');
+  /* background-image: url('https://img1.imgtp.com/2023/08/21/FcH4AKn4.jpg'); */
   box-shadow: 0 0 5px rgb(66, 68, 68);
   background-position: center;
   background-size: cover;
