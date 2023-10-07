@@ -103,7 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
 - type: git
-  repository: git@github.com:Song1014T/hexo.git
+  repository: git@github.com:Song1014T/Song1014T.github.io.git
   branch: main
 # - type: baidu_url_submitter
 - type: cjh_baidu_url_submitter
