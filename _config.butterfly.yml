@@ -664,8 +664,8 @@ tag_ui: # 留空或 index
 background: 
   # default: url(https://img1.imgtp.com/2023/08/23/YOnPhgKM.jpg)
   # darkmode: url()
-  default:  url(https://pic4.zhimg.com/80/v2-202bf2f0a899bb9b38d2b8d1dc6b4de3_720w.webp)
-  darkmode: url(https://pic1.zhimg.com/v2-6abf623b221414505347fa93778c4ee0_r.jpg) #【可选】PC端夜间模式背景
+  default:  url(https://w.wallhaven.cc/full/6d/wallhaven-6dyv1l.jpg)
+  darkmode: url(https://w.wallhaven.cc/full/rr/wallhaven-rr6eem.jpg) #【可选】PC端夜间模式背景
   mobileday: #【可选】移动端日间默认背景
   mobilenight: #【可选】移动端夜间模式背景
 # Footer Background 页脚背景图
