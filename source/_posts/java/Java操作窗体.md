@@ -1,7 +1,7 @@
 ---
 title: Java操作窗体
 categories: java
-cover: 'https://w.wallhaven.cc/full/d6/wallhaven-d6w2dj.png'
+cover: 'https://www.toopic.cn/public/uploads/small/1658046580831165804658018.jpg'
 description: Java操作窗体
 abbrlink: 81932
 date: 2023-10-08 11:30:00
