@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.yybk.cc/history/index.html</loc>
+    
+    <lastmod>2024-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.yybk.cc/tags/index.html</loc>
     
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2024-07-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +22,34 @@
   <url>
     <loc>https://www.yybk.cc/about/index.html</loc>
     
-    <lastmod>2023-10-17</lastmod>
+    <lastmod>2024-07-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.yybk.cc/history/index.html</loc>
+    <loc>https://www.yybk.cc/posts/32064.html</loc>
     
-    <lastmod>2023-10-17</lastmod>
+    <lastmod>2024-07-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yybk.cc/posts/30464.html</loc>
+    
+    <lastmod>2024-07-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.yybk.cc/posts/32069.html</loc>
+    
+    <lastmod>2024-07-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.yybk.cc/link/index.html</loc>
+    <loc>https://www.yybk.cc/movies/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -92,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://www.yybk.cc/movies/index.html</loc>
+    <loc>https://www.yybk.cc/link/index.html</loc>
     
     <lastmod>2023-09-28</lastmod>
     
@@ -373,7 +400,7 @@
 
   <url>
     <loc>https://www.yybk.cc/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-07-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -382,29 +409,29 @@
 
   
   <url>
-    <loc>https://www.yybk.cc/categories/cocos/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <loc>https://www.yybk.cc/categories/java/</loc>
+    <lastmod>2024-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.yybk.cc/categories/java/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <loc>https://www.yybk.cc/categories/cocos/</loc>
+    <lastmod>2024-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.yybk.cc/categories/%E4%B8%8B%E9%A5%AD%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.yybk.cc/categories/web/</loc>
-    <lastmod>2023-12-01</lastmod>
+    <lastmod>2024-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
